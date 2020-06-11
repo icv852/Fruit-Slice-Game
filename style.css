@@ -1,0 +1,118 @@
+#container{
+    height: 1000px;
+    width: 1220px;
+    margin: 20px auto;
+    border: solid 1px #99CEEC;
+    border-radius: 20px;
+    background-color: #99CEEC;
+    box-shadow: 0px 10px rgb(82,184,243);
+}
+
+#lifebar{
+    height: 55px;
+    width: 150px;
+    border: solid 1px #F3F78F;
+    background-color: #F3F78F;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    box-shadow: 0px 5px #80A5AC;
+    float: left;
+    visibility: visible;   
+}
+
+.heart{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+#scorebar{
+    height: 55px;
+    width: 120px;
+    border: solid 1px #F3F78F;
+    background-color: #F3F78F;
+    border-radius: 5px;
+    position: relative;
+    left: 915px;
+    top: 30px;
+    box-shadow: 0px 5px #80A5AC;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    color: #AAAE59;
+    line-height: 55px;
+    visibility: hidden;
+}
+
+#main{
+    height: 620px;
+    width: 1020px;
+    border: solid 1px white;
+    background-color: white;
+    box-shadow: 0px 5px #505EA9;
+    clear: both;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+}
+
+#startButton{
+    height: 80px;
+    width: 600px;
+    border: solid 1px #B78ADC;
+    background-color: #B78ADC;
+    position: relative;
+    top: 70px;
+    left: 300px;
+    clear: both;
+    line-height: 80px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0px 5px #865DAE;
+    border-radius: 5px;
+}
+
+#resetButton{
+    height: 60px;
+    width: 180px;
+    border: solid 1px #CBE7F6;
+    background-color: #CBE7F6;
+    position: relative;
+    top: 90px;
+    left: 510px;
+    clear: both;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0px 5px #7FA4BF;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#gameOver{
+    height: 450px;
+    width: 830px;
+    border: solid 1px transparent;
+    background: linear-gradient(#F3CA6B,#F3706C);
+    position: relative;
+    left: 195px;
+    top: -640px;
+    z-index: 2;
+    visibility: hidden;
+    text-align: center;
+    font-size: 50px;
+    color:darkmagenta
+}
+#gameOver p{
+    margin-top: 100px;
+}
+
+.fruit{
+    float: left;
+    position: absolute;
+    
+}
